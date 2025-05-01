@@ -1,0 +1,4 @@
+git init
+git config --global --add safe.directory E:/2025/miercoles,jueves,viernes/Cadena/Java
+git add -A   o  git add .
+git status
