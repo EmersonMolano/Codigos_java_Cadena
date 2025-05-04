@@ -1,0 +1,41 @@
+- Condicionales Simples (if)
+1. Edad para votar: Pide al usuario su edad e indica si puede votar (mayor o igual a 18 años).
+
+2. Númetemmvo.
+
+3. Temperatura alta: Pide una temperatura y muestra si está por encima de 30°C.
+
+4. Nota aprobada: Ingresa una nota y muestra si es mayor o igual a 10 (aprobado).
+
+5. Mayor de edad: Solicita la edad e imprime si la persona es mayor de edad.
+
+6. Multiplo de 5: Verifica si un número ingresado es múltiplo de 5.
+
+7. Divisible por 3: Pide un número e indica si es divisible entre 3.
+
+8. Número par: Indica si un número ingresado es par.
+
+9. Nombre largo: Pide un nombre e indica si tiene más de 8 caracteres.
+
+10. Salario alto: Pide un salario mensual y muestra si supera los $3000.
+
+🔸 Condicionales Compuestas (if-else, if-elif-else)
+1. Mayor o menor de edad: Solicita la edad e indica si la persona es mayor o menor de edad.
+
+2 .Número positivo o negativo: Verifica si un número es positivo o negativo.
+
+3. Par o impar: Determina si un número ingresado es par o impar.
+
+4. Temperatura adecuada: Pide una temperatura y muestra si hace frío (menor a 15), normal (15 a 30) o calor (mayor a 30).
+
+5. Nota académica: Ingresa una nota y clasifica: "Desaprobado" (<10), "Regular" (10-13), "Bueno" (14-17), "Excelente" (18-20).
+
+6. Número mayor: Compara dos números e indica cuál es mayor o si son iguales.
+
+7 .División segura: Pide dos números y divide solo si el segundo no es cero.
+
+8. Descuento por compra: Pide el total de una compra; si supera $100, aplica 10% de descuento, si no, muestra el total normal.
+
+9. Hora del día: Ingresa una hora (0-23) y muestra si es mañana (6-12), tarde (13-18), noche (19-23), o madrugada (0-5).
+
+10. Acceso al sistema: Pide usuario y contraseña; si coinciden con valores predefinidos, muestra "Acceso concedido", si no, "Acceso denegado".
