@@ -66,7 +66,7 @@ public class CalculadoraV3 {
         datos();
         result = numberOne + numberTwo;
         System.out.print("La suma es: "+ result);
-
+        return;
     }
     //Resta
     public static void resta(){
@@ -74,7 +74,7 @@ public class CalculadoraV3 {
         datos();
         result = numberOne - numberTwo;
         System.out.print("La resta es: "+ result);
-
+        return;
     }
     //Multiplicacion
     public static void multiplicacion(){
@@ -82,8 +82,8 @@ public class CalculadoraV3 {
         datos();
         result = numberOne * numberTwo;
         System.out.print("La multiplicacion es: "+ result);
-
-    }
+        return;
+    }   
     //Divicion
     public static void divicion(){
         System.out.println("Has escojido la Divicion");
@@ -96,7 +96,7 @@ public class CalculadoraV3 {
         }
         result = numberOne / numberTwo;
         System.out.print("La divicion es: "+ result);
-
+        return;
     }
     
     public static void datos(){

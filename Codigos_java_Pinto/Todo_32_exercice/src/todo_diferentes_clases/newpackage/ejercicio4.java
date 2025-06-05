@@ -16,7 +16,7 @@ public class ejercicio4{
     //Esto hace que pueda usar el scanner de la clase inicial y tambien me ayuda a usar las variables de "inicial"
     public static inicial in = new inicial();
     
-    public static void ejercicio3(){
+    public static void ejercicio4(){
         System.out.println("Ejercicio 3: Puntaje Final");
         // Operación
         System.out.print("Ingrese respuestas correctas: ");

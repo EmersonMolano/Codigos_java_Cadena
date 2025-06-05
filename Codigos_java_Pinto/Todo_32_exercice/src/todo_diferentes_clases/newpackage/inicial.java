@@ -54,7 +54,7 @@ public class inicial{
                 ejercicio3.ejercicio3();
                 break;
                 }
-            /*case 4:{
+            case 4:{
                 ejercicio4.ejercicio4();
                 break;
                 }
@@ -74,7 +74,7 @@ public class inicial{
                 ejercicio8.ejercicio8();
                 break;
                 }
-            case 9:{
+           case 9:{
                 ejercicio9.ejercicio9();
                 break;
                 }
@@ -169,7 +169,7 @@ public class inicial{
             case 32:{
                 ejercicio32.ejercicio32();
                 break;
-                }*/
+                }
             default:
                 System.out.println("Has salido suerte.");
                 break;
