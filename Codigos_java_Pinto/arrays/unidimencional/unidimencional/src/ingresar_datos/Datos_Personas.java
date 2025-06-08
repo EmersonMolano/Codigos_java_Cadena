@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package unidimencional;
+package ingresar_datos;
 import java.util.Scanner;
 /**
  *
@@ -92,7 +92,7 @@ public class Datos_Personas {
 
             System.out.println("Documento de identidad: " + cedula[i]);
         }
-        //---------------------Busqueda de personas por nombre---------------------
+        
         System.out.print("\n¿Deseas buscar personas por nombre? (sí/no): ");
         String respuesta = sc.nextLine();
 
