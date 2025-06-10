@@ -3,5 +3,5 @@ git config --global --add safe.directory E:/2025/miercoles,jueves,viernes/Cadena
 git add -A   o  git add .
 git status
 git commit -m "Java jobs"
-
+----------
 git config --global --add safe.directory "E:/2025/miercoles,jueves,viernes/Cadena"
