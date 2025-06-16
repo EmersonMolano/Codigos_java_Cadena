@@ -10,7 +10,7 @@ public class Conductor {
         System.out.println("Ingresa los datos de los conductores: ");
 
         //----Diez conductores con nombre, apellido y telefono---//
-        for (da.i = 0; da.i < 1; da.i++) {
+        for (da.i = 0; da.i < 10; da.i++) {
             System.out.println("Conductor " + (da.i + 1) + ":");
 
             System.out.print("Nombre: ");
@@ -25,7 +25,7 @@ public class Conductor {
         }
         //---------Mostrar conductores-----------//
         System.out.println("--- Lista de conductores Registrados ---");
-        for (da.i = 0; da.i < 1; da.i++) {
+        for (da.i = 0; da.i < 10; da.i++) {
             System.out.println("Conductor " + (da.i + 1) + ": " + da.conductores[da.i][0] + " " + da.conductores[da.i][1] + " - Tel: " + da.conductores[da.i][2]);
         }
     
