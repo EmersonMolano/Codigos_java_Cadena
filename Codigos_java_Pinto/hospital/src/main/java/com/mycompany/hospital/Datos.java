@@ -28,4 +28,22 @@ public class Datos {
     //------ Carroza funebre -------
     public static String[] carroza = new String[2];
     //-- conductor asignado, fallecido asignado--
+    
+    //---------- Clinica -----------
+    public static String[] clinicas = {"C1", "C2", "C3"};
+    public static int[] distancias = {55, 35, 55};
+    public static int distanciaFuneraria = 15;
+    public static int[] distanciasClinica = {55, 35, 55};
+
+    // Recorridos por conductor (máx. 8)
+    public static int[] recorridosConductores = new int[10];
+
+    // Kilómetros por ambulancia (máx. 400)
+    public static int[] kmAmbulancias = new int[10];
+
+    // Historial de viajes por ambulancia (máx. 10 recorridos cada una)
+    public static String[][] historialAmbulancias = new String[10][10];
+
+    // Estado: si paciente murió
+    public static boolean[] estaMuerto = new boolean[100];
 }

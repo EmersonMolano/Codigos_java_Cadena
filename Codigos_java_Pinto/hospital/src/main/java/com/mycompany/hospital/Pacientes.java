@@ -1,5 +1,8 @@
 package com.mycompany.hospital;
 import static com.mycompany.hospital.Datos.sc;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Pacientes {
 
@@ -49,5 +52,16 @@ public class Pacientes {
                 da.pacientes[da.i][0] + " " + da.pacientes[da.i][1] + " - Tel: " + da.pacientes[da.i][2] +
                 " - Edad: " + da.pacientes[da.i][3] + " - Sangre: " + da.pacientes[da.i][4]);
         }
+        System.out.println("\n--- Generando fallecidos aleatorios ---");
+        ArrayList<Integer> indices = new ArrayList<>();
+        for (int i = 0; i < cantidad; i++) indices.add(i);
+        Collections.shuffle(indices);
+
+        for (int i = 0; i < 15; i++) {
+            int index = indices.get(i);
+            da.estaMuerto[index] = true;
+            System.out.println("Paciente " + da.pacientes[index][0] + " " + da.pacientes[index][1] + " ha fallecido.");
+        }
+
     }
 }
