@@ -3,3 +3,5 @@ Anteriormente habran unos ejemplos del patron Composite.
 Aqui el enlace del video explicativo del tema:
 
 https://youtu.be/QY0hAYMF0VQ
+
+El video fue recortado lo maximo posible me resulto imposible recortarlo mas.
